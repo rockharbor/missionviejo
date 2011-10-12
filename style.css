@@ -64,7 +64,7 @@ th{font-weight:bold;}
 #branding>div{margin-bottom:20px;}
 #banner .withvid div.embedded-video,#banner .withvid div.image{margin-right:1.125%;width:70%;float:left;padding:1.125%;background:#ffffff;}
 #banner img{max-width:26%;}
-#banner .withvid div.image img{max-width:100%;}
+#banner img.full,#banner .withvid div.image img{max-width:100%;}
 #banner h1{background:#43a3a0;color:#5ddbcf;padding:5px;display:inline-block;}
 #banner h2{color:#5ddbcf;}
 #banner a{color:#000000;text-decoration:none;font-style:italic;}
