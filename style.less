@@ -475,7 +475,29 @@ article {
 }
 
 #submenu ul.children {
-	padding-left: 5px;
+	border-left: 1px solid @primary;
+    margin-left: 7px;
+}
+
+#submenu .breadcrumb {
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid @secondary;
+}
+
+#submenu .breadcrumb div {
+	margin-left: 5px;
+}
+
+#submenu .breadcrumb a {
+	font-family: @default-font;
+	text-decoration: none;
+	color: @link;
+	margin-bottom: 5px;
+}
+
+#submenu .breadcrumb a:hover {
+	color:  @primary;
 }
 
 footer {
