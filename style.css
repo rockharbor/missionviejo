@@ -10,7 +10,7 @@ body {
   line-height: 16px;
   font-family: Lucida, Helvetica, Arial, sans-serif;
   background: #e8e8e8;
-  color: #a5a5a5;
+  color: #747474;
   text-align: center;
 }
 #page, #footer {
@@ -66,11 +66,11 @@ h4 {
 }
 blockquote {
   text-indent: 1.666666667%;
-  border-left: 1px dotted #a5a5a5;
+  border-left: 1px dotted #747474;
   padding: 10px;
   margin-bottom: 10px;
   background: #f1f1f1;
-  color: #a5a5a5;
+  color: #747474;
 }
 .entry-content ul {
   list-style: disc inside;
@@ -90,7 +90,7 @@ pre {
   text-indent: 1.666666667%;
   padding: 5px;
   background: #f1f1f1;
-  color: #a5a5a5;
+  color: #747474;
 }
 dl dt {
   font-weight: bold;
@@ -123,7 +123,7 @@ th {
 }
 .dropdown:after {
   border: 5px solid transparent;
-  border-top: 5px solid #a5a5a5;
+  border-top: 5px solid #747474;
   content: '';
   position: absolute;
   top: 45%;
@@ -164,7 +164,7 @@ th {
   right: 10px;
 }
 #global-navigation nav a {
-  color: #a5a5a5;
+  color: #747474;
   text-decoration: none;
   display: inline-block;
 }
@@ -200,13 +200,13 @@ th {
   margin-left: 10px;
 }
 #global-navigation #searchform input {
-  border: 1px solid #a5a5a5;
+  border: 1px solid #747474;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   font-style: italic;
   background: #525252;
-  color: #a5a5a5;
+  color: #747474;
   font-size: 90%;
   text-align: right;
   padding: 2px 5px;
@@ -236,7 +236,7 @@ th {
 }
 #access ul li a {
   display: block;
-  text-shadow: 1px 1px 1px #a5a5a5;
+  text-shadow: 1px 1px 1px #747474;
   color: #e8e8e8;
   font-size: 145%;
   text-decoration: none;
@@ -246,7 +246,7 @@ th {
 }
 #access li a:hover, #access li.current-menu-item > a {
   border-bottom: 2px solid #5ddbcf;
-  background: #a5a5a5;
+  background: #747474;
 }
 #access div > ul > li {
   border-left: 2px solid #e8e8e8;
@@ -353,7 +353,7 @@ nav.breadcrumb a:hover {
 article {
   padding-bottom: 20px;
   margin-bottom: 20px;
-  border-bottom: 1px dotted #a5a5a5;
+  border-bottom: 1px dotted #747474;
   float: right;
   width: 75%;
 }
@@ -365,7 +365,7 @@ article {
   position: relative;
   float: right;
   padding: 2% 2.5% 2.5% 2.5%;
-  border-left: 1px dotted #a5a5a5;
+  border-left: 1px dotted #747474;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -443,7 +443,7 @@ footer h3 {
   display: block;
 }
 #footer, #footer ul.menu li a {
-  color: #a5a5a5;
+  color: #747474;
   text-decoration: none;
 }
 #footer ul.menu li a:hover {
@@ -488,13 +488,13 @@ footer h3 {
   background: #ffffff;
 }
 #secondary.home-widget-area div.title.white h3 {
-  color: #a5a5a5;
+  color: #747474;
 }
 #secondary.home-widget-area div.title.white.reverse {
   background: #383838;
 }
 #secondary.home-widget-area div.title.white.reverse h3 {
-  color: #a5a5a5;
+  color: #747474;
 }
 #secondary.home-widget-area a.title-icon {
   position: absolute;
@@ -617,7 +617,7 @@ footer h3 {
 .archive-page-link .page-numbers.dots {
   background: none;
   border: none;
-  color: #a5a5a5;
+  color: #747474;
 }
 .archive-page-link a.prev, .archive-page-link a.next {
   border: none;
@@ -666,7 +666,7 @@ footer.related h2 a, .entry-header h1.entry-title a {
   border-right: 1px solid #5ddbcf;
 }
 article footer {
-  border-top: 1px dotted #a5a5a5;
+  border-top: 1px dotted #747474;
   background: transparent;
 }
 article footer ul.related {
@@ -713,14 +713,14 @@ article footer ul.related li:first-child {
 -----------------------------------------*/
 input, textarea {
   background: #ffffff;
-  border: 1px solid #a5a5a5;
+  border: 1px solid #747474;
   padding: 5px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin-bottom: 5px;
   width: 100%;
-  color: #a5a5a5;
+  color: #747474;
   font-family: Lucida, Helvetica, Arial, sans-serif;
   font-size: 100%;
 }
@@ -757,7 +757,7 @@ input:focus, textarea:focus, select:focus {
 }
 .twitter-author a {
   font-family: 'TradeGothicLTStdBdCnNo.20', Lucida, Helvetica, Arial, sans-serif;
-  color: #a5a5a5;
+  color: #747474;
   text-decoration: none;
   font-size: 140%;
   font-style: normal;
@@ -828,7 +828,7 @@ Also skipped using id's to override since there are 2 menus on the page
   color: #F46800 !important;
 }
 .campus-list .back {
-  background: #a5a5a5 !important;
+  background: #747474 !important;
   color: #ffffff !important;
   font-size: 120% !important;
 }
