@@ -118,7 +118,7 @@ footer.related h2 a, .entry-header h1.entry-title a {
   border-color: #5DDBCF;
 }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus, select:focus {
   border-color: #5DDBCF;
 }
 
