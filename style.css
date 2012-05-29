@@ -111,10 +111,8 @@ footer.related h2 a, .entry-header h1.entry-title a {
   color: #5DDBCF;
 }
 
-.core-events time .month,
-.core-events time .day,
-.entry-header time .month,
-.entry-header time .day {
+time .month,
+time .day {
   border-color: #5DDBCF;
 }
 
