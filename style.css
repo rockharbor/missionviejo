@@ -130,3 +130,18 @@ button, input[type=submit] {
 .fc-event-title {
     border-left: 3px solid #43A3A0 !important;
 }
+
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background: #5DDBCF;
+	background: rgba(93,219,207,0.8);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(93,219,207,0.8)), to(rgba(93,219,207,0.5))); 
+	background: -webkit-linear-gradient(top, rgba(93,219,207,0.8), rgba(93,219,207,0.5));
+	background: -moz-linear-gradient(top, rgba(93,219,207,0.8), rgba(93,219,207,0.5));
+	background: -o-linear-gradient(top, rgba(93,219,207,0.8), rgba(93,219,207,0.5));
+	background: -ms-linear-gradient(top, rgba(93,219,207,0.8), rgba(93,219,207,0.5));
+	background: linear-gradient(rgba(93,219,207,0.8), rgba(93,219,207,0.5));
+}
+
+.mejs-overlay-button {
+	background-color: #5DDBCF;
+}

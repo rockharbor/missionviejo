@@ -14,7 +14,10 @@ class ChildTheme extends RockharborThemeBase {
  */
 	protected $themeOptions = array(
 		'slug' => 'mission_viejo',
-		'short_name' => 'Mission Viejo'
+		'short_name' => 'Mission Viejo',
+		'supports' => array(
+			'message'
+		)
 	);
 
 /**
