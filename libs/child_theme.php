@@ -16,7 +16,8 @@ class ChildTheme extends RockharborThemeBase {
 		'slug' => 'mission_viejo',
 		'short_name' => 'Mission Viejo',
 		'supports' => array(
-			'message'
+			'message',
+			'staff'
 		)
 	);
 
