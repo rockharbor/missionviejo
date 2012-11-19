@@ -4,144 +4,91 @@ Description: RH Mission Viejo's theme
 Version: 0.1
 Author: Jeremy Harris
 Template: rockharbor
+Primary Color: #43A3A0
+Secondary Color: #5DDBCF
 */
 
-h1 {
-  color: #5DDBCF;
+/*= Primary
+-----------------------------------------*/
+a,
+h1,
+.primary,
+#global-navigation h1 a,
+#submenu li.current-menu-item a,
+#submenu a:hover,
+.archive-page-link .page-numbers,
+.page-link a span.page-numbers,
+footer h3,
+.flash-message
+{
+	color: #43A3A0;
 }
 
-.icon-map {
-  background: url('img/direction-icon.png') 0 0 no-repeat;
+#global-navigation .logo,
+#access li a:hover,
+#access li.current-menu-item > a,
+#access ul li ul li a:hover,
+#access ul li ul li.current-menu-item a,
+.page-title h1,
+#content-title h1,
+section header h1,
+aside header h1,
+.archive-page-link .page-numbers.current,
+.page-link .page-numbers,
+button,
+input[type=submit],
+footer .tabs a.selected
+{
+	background-color: #43A3A0;
 }
 
-.primary {
-  color: #5DDBCF;
-}
-
-.secondary {
-  color: #43A3A0;
-}
-
-#global-navigation h1 a {
-  color: #5DDBCF;
-  background: #43A3A0;
-}
-
-#access li a:hover, #access li.current-menu-item > a {
-  border-color: #5DDBCF;
-}
-
-#access ul li ul li a:hover, #access ul li ul li.current-menu-item a {
-  border-color: #5DDBCF;
-}
-
-#banner h1 {
-  background: #43A3A0;
-  color: #5DDBCF;
-}
-
-#banner h2 {
-  color: #5DDBCF;
-}
-
-#submenu #sub-navigation li.current-menu-item a, #submenu #sub-navigation a:hover {
-  border-color: #5DDBCF;
-  color: #5DDBCF;
-}
-
-#submenu ul.children {
-  border-color: #5DDBCF;
-}
-
-#submenu .breadcrumb {
-  border-color: #43A3A0;
-}
-
-#submenu .breadcrumb a:hover {
-  color: #5DDBCF;
-}
-
-footer h3 {
-  color: #5DDBCF;
-}
-
-#secondary.home-widget-area div.title {
-  background: #5DDBCF;
-}
-
-#secondary.home-widget-area h3 {
-  color: #43A3A0;
-}
-
-#secondary.home-widget-area div.title.reverse {
-  background: #43A3A0;
-}
-
-#secondary.home-widget-area div.title.reverse h3 {
-  color: #5DDBCF;
-}
-
-#pre-secondary a {
-  color: #43A3A0;
-}
-
-.message {
-  color: #5DDBCF;
-}
-
-.page-title span, .sub-title span {
-  background: #5DDBCF;
-}
-
-.page-title span:after, .sub-title span:after {
-  border-top-color: #43A3A0;
-}
-
-.archive-page-link .page-numbers.current, .page-link .page-numbers {
-  border-color: #5DDBCF;
-  background: #5DDBCF;
-}
-
-.archive-page-link .page-numbers, .page-link a span.page-numbers {
-  border-color: #5DDBCF;
-  color: #5DDBCF;
-}
-
-footer.related h2 a, .entry-header h1.entry-title a {
-  color: #5DDBCF;
-}
-
-time .month,
-time .day {
-  border-color: #5DDBCF;
-}
-
-input:focus, textarea:focus, select:focus {
-  border-color: #5DDBCF;
-}
-
-button, input[type=submit] {
-  background: #5DDBCF;
-  border-color: #43A3A0;
-  color: #43A3A0;
-}
-
-.fc-event-time, 
-.fc-event-title {
-    border-left: 3px solid #43A3A0 !important;
+#submenu li.current-menu-item a,
+#submenu a:hover,
+#submenu ul.children,
+.flash-message,
+.page-numbers,
+time .day,
+input:focus,
+textarea:focus,
+select:focus
+{
+	border-color: #43A3A0;
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-loaded {
-	background: #5DDBCF;
-	background: rgba(93,219,207,0.8);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(93,219,207,0.8)), to(rgba(93,219,207,0.5))); 
-	background: -webkit-linear-gradient(top, rgba(93,219,207,0.8), rgba(93,219,207,0.5));
-	background: -moz-linear-gradient(top, rgba(93,219,207,0.8), rgba(93,219,207,0.5));
-	background: -o-linear-gradient(top, rgba(93,219,207,0.8), rgba(93,219,207,0.5));
-	background: -ms-linear-gradient(top, rgba(93,219,207,0.8), rgba(93,219,207,0.5));
-	background: linear-gradient(rgba(93,219,207,0.8), rgba(93,219,207,0.5));
+	background: #43A3A0;
+	background: rgba(67,163,160,0.8);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(67,163,160,0.8)), to(rgba(67,163,160,0.5))); 
+	background: -webkit-linear-gradient(top, rgba(67,163,160,0.8), rgba(67,163,160,0.5));
+	background: -moz-linear-gradient(top, rgba(67,163,160,0.8), rgba(67,163,160,0.5));
+	background: -o-linear-gradient(top, rgba(67,163,160,0.8), rgba(67,163,160,0.5));
+	background: -ms-linear-gradient(top, rgba(67,163,160,0.8), rgba(67,163,160,0.5));
+	background: linear-gradient(rgba(67,163,160,0.8), rgba(67,163,160,0.5));
 }
 
 .mejs-overlay-button {
+	background-color: #43A3A0;
+}
+
+/*= Secondary
+-----------------------------------------*/
+.secondary,
+button,
+input[type=submit] 
+{
+	color: #5DDBCF;
+}
+
+#global-navigation h1 a,
+.story-box
+{
 	background-color: #5DDBCF;
+}
+
+button,
+input[type=submit],
+.fc-event-time, 
+.fc-event-title 
+{
+	border-color: #5DDBCF;
 }
