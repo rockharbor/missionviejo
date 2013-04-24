@@ -6,5 +6,6 @@ function _include_theme() {
 	global $theme;
 	require_once 'libs/child_theme.php';
 	$theme = new ChildTheme();
+	$theme->init();
 }
 add_action('after_setup_theme', '_include_theme');
