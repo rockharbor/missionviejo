@@ -14,8 +14,8 @@ a,
 h1,
 .primary,
 .global-navigation h1 a,
-#submenu li.current-menu-item a,
-#submenu a:hover,
+nav.submenu li.current-menu-item a,
+nav.submenu a:hover,
 .archive-page-link .page-numbers,
 .page-link a span.page-numbers,
 footer h3,
@@ -42,9 +42,9 @@ footer .tabs a.selected
 	background-color: #43A3A0;
 }
 
-#submenu li.current-menu-item a,
-#submenu a:hover,
-#submenu ul.children,
+nav.submenu li.current-menu-item a,
+nav.submenu a:hover,
+nav.submenu ul.children,
 .flash-message,
 .page-numbers,
 time .day,
