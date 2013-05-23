@@ -42,6 +42,8 @@ footer .tabs a.selected
 	background-color: #43A3A0;
 }
 
+blockquote.pull-right,
+blockquote.pull-left,
 nav.submenu li.current-menu-item a,
 nav.submenu a:hover,
 nav.submenu ul.children,
